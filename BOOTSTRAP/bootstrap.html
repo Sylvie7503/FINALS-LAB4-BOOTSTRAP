@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Utility Demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="p-4">
+
+  <!-- TASK 1: DISPLAY UTILITIES -->
+  <h2>Task 1: Display Utilities (d-none, d-inline, d-block)</h2>
+  <p class="d-none">This paragraph is hidden (d-none).</p>
+  <span class="d-inline bg-primary text-white p-2">This is inline (d-inline)</span>
+  <div class="d-block bg-success text-white p-2 mt-2">This is block (d-block)</div>
+
+  <hr>
+
+  <!-- TASK 2: BREAKPOINTS WITH DISPLAY CONTROL -->
+  <h2>Task 2: Breakpoints with Display Control</h2>
+  <div class="d-none d-sm-block bg-info text-white p-2">
+    This box is hidden on xs, visible on sm and above (d-none d-sm-block)
+  </div>
+  <div class="d-block d-md-none bg-warning text-dark p-2 mt-2">
+    This box is visible on xs/sm, hidden on md and above (d-block d-md-none)
+  </div>
+
+  <hr>
+
+  <!-- TASK 3: BORDER ADDITIVE, CONTEXTUAL BACKGROUND, TEXT, MARGIN -->
+  <h2>Task 3: Border Additive + Margin Utility</h2>
+  <div class="border border-success bg-light text-success m-3 p-3">
+    Border Additive with Contextual Styling (border-success, bg-light, text-success, m-3)
+  </div>
+
+  <hr>
+
+  <!-- TASK 4: BORDER SUBTRACTIVE, CONTEXTUAL BACKGROUND, TEXT, PADDING -->
+  <h2>Task 4: Border Subtractive + Padding Utility</h2>
+  <div class="border border-0 bg-danger text-white p-4">
+    Border Subtractive (border-0), Padding Applied (p-4), Contextual Background/Text
+  </div>
+
+  <hr>
+
+  <!-- TASK 5: BORDER WIDTH, COLOR, RADIUS -->
+  <h2>Task 5: Border Width, Color, Radius</h2>
+  <div class="border border-5 border-primary rounded bg-light text-primary p-3 mb-3">
+    Border-5 width, Primary color, rounded corners
+  </div>
+  <div class="border border-2 border-secondary rounded-top bg-white text-secondary p-3 mb-3">
+    Border-2, Secondary, rounded-top
+  </div>
+  <div class="border border-3 border-warning rounded-circle text-warning text-center p-4" style="width: 150px; height: 150px;">
+    Rounded Circle
+  </div>
+
+  <hr>
+
+  <!-- TASK 6: ROUNDED SIZE & SHADOW -->
+  <h2>Task 6: Rounded Sizes & Shadow</h2>
+  <div class="bg-success text-white p-3 rounded-sm shadow-sm mb-3">
+    Small Rounded (rounded-sm) + Small Shadow (shadow-sm)
+  </div>
+  <div class="bg-primary text-white p-3 rounded shadow mb-3">
+    Default Rounded (rounded) + Regular Shadow (shadow)
+  </div>
+  <div class="bg-danger text-white p-3 rounded-lg shadow-lg mb-3">
+    Large Rounded (rounded-lg) + Large Shadow (shadow-lg)
+  </div>
+  <div class="bg-warning text-dark p-3 rounded-pill shadow mb-3">
+    Pill Rounded (rounded-pill) + Regular Shadow
+  </div>
+
+</body>
+</html>
