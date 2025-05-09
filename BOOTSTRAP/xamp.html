@@ -7,12 +7,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container mt-4">
-        <h1>Task 1</h1>
-        <h1 class="bg-primary text-danger d-none">D-none</h1>
-        <h1 class="bg-secondary text-dark d-inline">D-Inline</h1>
-        <h1 class="bg-info text-dark d-block">D-Block</h1>
-        <h1 class="bg-primary text-dark d-none d-md-inline">D-md-Inline</h1>
+    <div class="container my-5">
+        <h1 class="display-6">Task 1</h1>
+        <h6 class="bg-primary text-white p-2 d-none d-md-block">I am a d-none on small devices.</h6>    
+        <h6 class="bg-primary text-white p-2 d-block">I am a d-block sentence.</h6>
+        <h6 class="bg-danger text-white p-2 d-inline">I am a d-inline sentence.</h6>
+        <h6 class="bg-primary text-white p-2 d-none">I am a d-none sentence.</h6> 
     </div>
 
 
@@ -83,21 +83,21 @@
         </div>
     </div>
      
-    <div class="container">
-        <h1>Task 6</h1>
+    <div class="container my-5">
+        <h1 class="display-6">Task 6</h1>
+        <div class="d-flex mb-5">
+            <div class="me-5 border bg-secondary rounded-0 text-white p-4">rounded-0</div>
+            <div class="me-5 border bg-secondary rounded-1 text-white p-4">rounded-1</div>
+            <div class="me-5 border bg-secondary rounded-2 text-white p-4">rounded-2</div>
+            <div class="me-5 border bg-secondary rounded-3 text-white p-4">rounded-3</div>
+        </div>
+        <div class="d-flex">
+            <div class="me-5 border shadow-none p-4">shadow-none</div>
+            <div class="me-5 border shadow-sm p-4">shadow-sm</div>
+            <div class="me-5 border shadow p-4">shadow</div>
+            <div class="me-5 border shadow-lg p-4">shadow-lg</div>
 
-        
-        <p class="bg-success text-white p-3 rounded-sm shadow-sm mb-3">
-            Small Rounded + Small Shadow 
-        </p>
-          <p class="bg-primary text-white p-3 rounded shadow mb-3">
-            Default Rounded  + Regular Shadow 
-          </p>
-          <p class="bg-danger text-white p-3 rounded-lg shadow-lg mb-3">
-            Large Rounded + Large Shadow 
-          </p>
-          <p class="bg-warning text-dark p-3 rounded-pill shadow mb-3">Pill Rounded  + Regular Shadow
-          </p>
+        </div>
     </div>
 </body>
 </html>
